@@ -9,11 +9,7 @@ var liri = require('./liri.js');
 //   access_token_secret: 'rRmVCoWzeOT6bGp7Yov2AXYDenjanxtR2C1cI9lp7iHVT',
 // }
 
-var http =  require('http');
-http.createServer(function(request, response) {
-  router.home(request, reponse);
-  router.user(request, reponse);
-}).listen(3000);
+
 
 
 var Twitter = require('twitter');
