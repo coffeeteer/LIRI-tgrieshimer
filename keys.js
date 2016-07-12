@@ -1,3 +1,5 @@
+console.log(process.argv);
+
 console.log('this is loaded');
 var liri = require('./liri.js');
 // exports.twitterKeys = {
